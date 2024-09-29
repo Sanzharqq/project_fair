@@ -1,0 +1,123 @@
+* {
+    margin:0;
+    padding:0; 
+ }
+ body{
+     background-color:rgb(203, 209, 212) ;
+ }
+ .page-1{
+ display:flex;
+ align-items:center;
+ justify-content: space-between;
+ padding:10px 20px;
+ margin-right:180px;
+ margin-top: 30px;
+ }
+ .menu{
+     display: flex;
+     gap:30px;
+     font-size: large;
+     color:rgb(42, 40, 41);
+ }
+ .menu, a{
+     text-decoration:none;
+     color:rgb(43, 38, 38);
+ }
+ .logo{
+     margin-left:25px;
+     font-size:24px;
+     font-weight:400;
+     font-family:Instrument Serif, sans-serif;
+ }
+ .line-about{
+    text-decoration: underline;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.image-content{
+    width:400px;
+    height:500px;
+    object-fit: cover;
+    margin-left:200px;
+
+}
+.mini-content{
+    display: flex;
+    flex-direction: column;
+    padding-top:100px;
+
+}
+.paragraph{
+    padding-top:60px;
+    font-family: Instrument Serif;
+    font-weight: 400;
+    font-size:20px;
+    line-height: 24px;
+}
+.paragraph__second{
+    padding-top:60px;
+    font-family: Instrument Serif;
+    font-weight: 300;
+    font-size:20px;
+    line-height: 24px;
+    margin-top:-40px;
+}
+.h2{
+    font-family: Instrument Serif;
+    font-weight: 400;
+    font-size:50px;
+}
+.video{
+ margin-left:-20px;
+}
+.footer{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:10px 20px;
+    margin-right:180px;
+    margin-top:150px;
+    color:rgb(42, 40, 41);
+}
+.items{
+    display: flex;
+    justify-content:space-between; 
+    gap: 150px; 
+}
+.text{
+    font-family:Instrument Serif, sans-serif;
+}
+.page-2{
+    display: flex;
+    justify-content: space-around;
+}
+.team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:170px;
+
+}
+.img-chef{
+    width:500px;
+    height:500px;
+    object-fit: cover;
+    margin-top: 30px;
+    
+}
+
+.topic{
+    margin-top:-100px;
+    font-family: Baskervville;
+    font-weight: 400;
+    font-size:50px;
+}
+.img-povar{
+    display: flex;
+    justify-content: center;
+    
+}

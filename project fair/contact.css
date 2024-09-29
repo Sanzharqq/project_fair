@@ -1,0 +1,118 @@
+* {
+    margin:0;
+    padding:0; 
+ }
+ body{
+     background-color:rgb(203, 209, 212) ;
+ }
+ .page-1{
+ display:flex;
+ align-items:center;
+ justify-content: space-between;
+ padding:10px 20px;
+ margin-right:180px;
+ margin-top: 30px;
+ }
+ .menu{
+     display: flex;
+     gap:30px;
+     font-size: large;
+     color:rgb(42, 40, 41);
+ }
+ .menu, a{
+     text-decoration:none;
+     color:rgb(43, 38, 38);
+ }
+ .logo{
+     margin-left:25px;
+     font-size:24px;
+     font-weight:400;
+     font-family:Instrument Serif, sans-serif;
+ }
+ .line-contact{
+    text-decoration: underline;
+}
+.content{
+    font-family:Instrument Serif;
+    font-size: larger;
+    margin-left:40px;
+}
+.page-2{
+    margin-bottom: 30px;
+}
+.form-container {
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #666;
+}
+
+.contact-form button {
+    margin-left:15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0055aa;
+    transition-duration: 0.6s;
+}
+#vid{
+    width:500px;
+    height:700px;
+    margin-right:100px;
+
+    
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin-top:90px;
+}
+.main{
+    margin-left:30px;
+}
+.footer{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:10px 20px;
+    margin-right:180px;
+    margin-top:150px;
+    color:rgb(42, 40, 41);
+}
+.items{
+    display: flex;
+    justify-content:space-between; 
+    gap: 150px; 
+}
+.text{
+    font-family:Instrument Serif, sans-serif;
+}
